@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('https://wallpapercave.com/wp/wp12542879.png'); /* Add background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(244, 244, 244, 0.5); /* Make background more transparent */
+  border-bottom: 1px solid #ccc;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold; /* Make font bold */
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold; /* Make font bold */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(244, 244, 244, 0.5); /* Make background more transparent */
+  border-top: 1px solid #ccc;
+  font-weight: bold; /* Make font bold */
+}
